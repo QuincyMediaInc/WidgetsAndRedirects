@@ -1,0 +1,9 @@
+"Bass Lake Country Club": {'address': 'W10650 Bass Lake Rd', 'city': 'Deerbrook', 'state': 'WI', 'zip': '54424', 'phone': '715.623.6196', 'lat': '45.356308', 'lng': '-89.185647', 'url': 'https://www.golfbasslake.com/'},
+"Golden Sands Golf Course": {'address': '300 Nabor Road', 'city': 'Cecil', 'state': 'WI', 'zip': '54111', 'phone': '715.745.2189', 'lat': '44.820726', 'lng': '-88.45083', 'url': 'http://www.goldensandscecil.com/'},
+"Inshalla Country Club": {'address': 'N11060 Clear Lake Rd', 'city': 'Tomahawk', 'state': 'WI', 'zip': '54487', 'phone': '715.453.3130', 'lat': '45.525186', 'lng': '-89.717426', 'url': 'http://inshallacc.com/'},
+"Merrill Golf Club": {'address': '1604 O\'Day Street', 'city': 'Merrill', 'state': 'WI', 'zip': '54452', 'phone': '715.536.2529', 'lat': '45.180522', 'lng': '-89.683459', 'url': 'http://www.merrillgolfclub.com/'},
+"Pine Valley Golf Course": {'address': '301 136th Ave', 'city': 'Marathon City', 'state': 'WI', 'zip': '54448', 'phone': '715.443.2848', 'lat': '44.952781', 'lng': '-89.804755', 'url': 'https://www.golfpinevalley.net/'},
+"Plum Lake Golf Club": {'address': '3160 Club House Rd', 'city': 'Sayner', 'state': 'WI', 'zip': '54560', 'phone': '715.542.2598', 'lat': '46.001016', 'lng': '-89.514533', 'url': 'http://www.plumlakegolf.com/'},
+"St Germain Golf Club": {'address': '9041 State Hwy 70 West', 'city': 'St. Germain', 'state': 'WI', 'zip': '54558', 'phone': '715.542.2614', 'lat': '45.940903', 'lng': '-89.495693', 'url': 'https://stgermaingolf.com/'},
+"Trapp River Golf Course": {'address': 'T12102 County Rd WW', 'city': 'Wausau', 'state': 'WI', 'zip': '54403', 'phone': '715.675.3044', 'lat': '44.959135', 'lng': '-89.630122', 'url': 'http://www.trapprivergolf.com/'},
+"Trout Lake Golf Club": {'address': '3800 Hwy 51 North', 'city': 'Arbor Vitae', 'state': 'WI', 'zip': '54568', 'phone': '715.385.2189', 'lat': '45.922515', 'lng': '-89.671195', 'url': 'http://www.troutlakegolf.com/'}

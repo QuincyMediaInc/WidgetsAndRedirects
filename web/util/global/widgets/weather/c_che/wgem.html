@@ -1,0 +1,229 @@
+site: wgem wf: http://data.wp.myweather.net/eWxII/?data=*USA19974,*USA13156,*USA00982,*USA11171,*USA00756,*USA00737,*USA01199,*USA00224,*USA16746,*USA16379
+	<style>
+	.condition_table
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		border-bottom:1px solid #CCCCCC;
+		border-right:1px solid #CCCCCC;
+		border-left:1px solid #CCCCCC;
+		width:385;
+	}
+
+	#container
+	{
+		background-color:#e0ecfa;
+		border-top:1px solid #CCCCCC;
+		border-right:1px solid #CCCCCC;
+		border-left:1px solid #CCCCCC;
+		background-color:#e0ecfa;
+		height:25px;
+		padding:0px;
+
+
+	}
+
+	#nav_spacer
+	{
+		width:105px;
+		float:left;
+		background-color:#e0ecfa;
+		/*border-right:1px solid #CCCCCC;*/
+		color:#e0ecfa;
+		padding-top:5px;
+	}
+
+	#wisconsin
+	{
+		width:85px;
+		float:left;
+		background-color:#ffffff;
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+
+	#wisconsin a
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		text-decoration:none;
+		color:#000000;
+	}
+
+	#wisconsin a:visited
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		text-decoration:none;
+		color:#000000;
+	}
+
+	#national
+	{
+		width:80px;
+		float:left;
+		background-color:#e0ecfa;
+		text-align:center;
+		border-right:1px solid #ffffff;
+		border-left:1px solid #ffffff;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+
+	#national a
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		text-decoration:none;
+		color:#000000;
+	}
+
+	#national a:visited
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		text-decoration:none;	
+		color:#000000;
+	}
+
+	#international
+	{
+		width:110px;
+		float:left;
+		background-color:#e0ecfa;
+		text-align:center;
+		padding-top:5px;
+		padding-bottom:5px;
+	}
+
+	#international a
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		text-decoration:none;
+		color:#000000;
+	}
+
+	#international a:visited
+	{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		text-decoration:none;
+		color:#000000;
+	}
+
+	body
+	{
+		margin:2px;
+	}
+
+	</style>
+
+	<script>
+		function show_hide(div)
+		{
+			if(div == 'wisconsin_table')
+			{
+				document.getElementById('wisconsin_table').style.visibility = "visible";
+				document.getElementById('wisconsin_table').style.display = "block";
+				document.getElementById('wisconsin').style.backgroundColor = "#ffffff";
+
+				document.getElementById('national_table').style.visibility = "hidden";
+				document.getElementById('national_table').style.display = "none";
+				document.getElementById('national').style.backgroundColor = "#e0ecfa";
+
+				document.getElementById('international_table').style.visibility = "hidden";
+				document.getElementById('international_table').style.display = "none";
+				document.getElementById('international').style.backgroundColor = "#e0ecfa";
+			}
+			else if(div == 'national_table')
+			{
+				document.getElementById('wisconsin_table').style.visibility = "hidden";
+				document.getElementById('wisconsin_table').style.display = "none";
+				document.getElementById('wisconsin').style.backgroundColor = "#e0ecfa";
+
+				document.getElementById('national_table').style.visibility = "visible";
+				document.getElementById('national_table').style.display = "block";
+				document.getElementById('national').style.backgroundColor = "#ffffff";
+
+
+				document.getElementById('international_table').style.visibility = "hidden";
+				document.getElementById('international_table').style.display = "none";
+				document.getElementById('international').style.backgroundColor = "#e0ecfa";
+			}
+			else if(div == 'international_table')
+			{
+				document.getElementById('wisconsin_table').style.visibility = "hidden";
+				document.getElementById('wisconsin_table').style.display = "none";
+				document.getElementById('wisconsin').style.backgroundColor = "#e0ecfa";
+
+				document.getElementById('national_table').style.visibility = "hidden";
+				document.getElementById('national_table').style.display = "none";
+				document.getElementById('national').style.backgroundColor = "#e0ecfa";
+
+				document.getElementById('international_table').style.visibility = "visible";
+				document.getElementById('international_table').style.display = "block";
+				document.getElementById('international').style.backgroundColor = "#ffffff";
+			}
+
+
+		}
+	</script>
+
+	<div id="container" style="width:;">
+		<div id="wisconsin"><a href="javascript:show_hide('wisconsin_table');" class="links">Regional</a></div>
+		<div id="national"><a href="javascript:show_hide('national_table');" class="links">National</a></div>
+		<div id="international"><a href="javascript:show_hide('international_table');" class="links">International</a></div>
+		<div id="nav_spacer">International</div>
+	</div>
+
+	<div id="wisconsin_table" style="position:absolute; left:2px; top:27px;">
+		<!-- Wisconsin City Table -->
+		<table width="385" border="0" cellpadding="5" cellspacing="0" class="condition_table">
+		<tr>
+			<td colspan="3" height="2"></td>
+		</tr>
+		<tr bgcolor="#e0ecfa">
+			<td><strong>City</strong></td>
+			<td><strong>Today's Forecast</strong></td>
+			<td><strong>High/Low</strong></td>
+		</tr>
+		<tr bgcolor='#f5f4f0'><td>Quincy</td><td>Light Rain</td><td>60&deg;/43&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Keokuk</td><td>Light Rain</td><td>59&deg;/42&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Macomb</td><td>Light Rain</td><td>61&deg;/42&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Hannibal</td><td>Light Rain</td><td>61&deg;/45&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Kirksville</td><td>Light Rain</td><td>52&deg;/35&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Jacksonville</td><td>Thunderstorms</td><td>66&deg;/46&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Pittsfield</td><td>Light Rain</td><td>65&deg;/47&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Burlington</td><td>Light Rain</td><td>59&deg;/39&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Mt. Sterling</td><td>Light Rain</td><td>63&deg;/44&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Monroe City</td><td>Light Rain</td><td>58&deg;/43&deg;</td></tr>		</table>
+	</div>
+
+	<div id="national_table" style="visibility:hidden; display:none; position:absolute; left:2px; top:27px;">
+		<!-- Wisconsin City Table -->
+		<table width="385" border="0" cellpadding="5" cellspacing="0" class="condition_table">
+		<tr>
+			<td colspan="3" height="2"></td>
+		</tr>
+		<tr bgcolor="#e0ecfa">
+			<td><strong>City</strong></td>
+			<td><strong>Today's Forecast</strong></td>
+			<td><strong>High/Low</strong></td>
+		</tr>
+		<tr bgcolor='#f5f4f0'><td>Washington DC</td><td>Light Rain</td><td>66&deg;/45&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Orlando</td><td>Partly Cloudy</td><td>92&deg;/65&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Los Angeles</td><td>Mostly Cloudy</td><td>59&deg;/51&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Las Vegas</td><td>Sunny</td><td>77&deg;/52&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Minneapolis</td><td>Light Rain/Snow</td><td>40&deg;/24&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Detroit</td><td>Scattered Showers</td><td>70&deg;/39&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Dallas</td><td>Sunny</td><td>90&deg;/71&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Seattle</td><td>Scattered Showers</td><td>55&deg;/39&deg;</td></tr><tr bgcolor='#f5f4f0'><td>New York</td><td>Light Rain</td><td>69&deg;/50&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Kansas City</td><td>Light Rain</td><td>51&deg;/38&deg;</td></tr>		</table>
+	</div>
+
+	<div id="international_table" style="visibility:hidden; display:none; position:absolute; left:2px; top:27px;">
+		<!-- Wisconsin City Table -->
+		<table width="385" border="0" cellpadding="5" cellspacing="0" class="condition_table">
+		<tr>
+			<td colspan="3" height="2"></td>
+		</tr>
+		<tr bgcolor="#e0ecfa">
+			<td><strong>City</strong></td>
+			<td><strong>Today's Forecast</strong></td>
+			<td><strong>High/Low</strong></td>
+		</tr>
+		<tr bgcolor='#f5f4f0'><td>Paris</td><td>Partly Cloudy</td><td>68&deg;/49&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Sydney</td><td>Light Rain</td><td>65&deg;/61&deg;</td></tr><tr bgcolor='#f5f4f0'><td>London</td><td>Partly Cloudy</td><td>60&deg;/44&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Barcelona</td><td>Sunny</td><td>66&deg;/53&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Hong Kong</td><td>Partly Cloudy</td><td>74&deg;/68&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Tokyo</td><td>Partly Cloudy</td><td>53&deg;/51&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Montreal</td><td>Partly Cloudy</td><td>55&deg;/32&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Moscow</td><td>Clear</td><td>55&deg;/34&deg;</td></tr><tr bgcolor='#f5f4f0'><td>Berlin</td><td>Partly Cloudy</td><td>70&deg;/50&deg;</td></tr><tr bgcolor='#e0ecfa'><td>Kabul</td><td>Scattered Showers</td><td>59&deg;/47&deg;</td></tr>		</table>
+	</div>
+
+	

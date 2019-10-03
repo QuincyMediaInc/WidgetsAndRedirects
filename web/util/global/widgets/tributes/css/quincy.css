@@ -1,0 +1,285 @@
+@import url("cobrand_nav.css");
+
+#container {
+	background: #ffffff;
+	margin: 0 auto;
+	padding: 0;
+	width: 980px;
+}
+
+#quincy-header {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#quincy-footer {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#main-content {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.clearfix {
+	display:inline-block;
+}
+
+#trib2-subnav {
+	border: none;
+	width: 980px;
+}
+
+#local-news { 
+	margin-top: 0;
+}
+
+#local-news h5 {
+	background: none repeat scroll 0 0 #666666;
+}
+
+.region-select-container {
+	background-color: #999999;
+	color: #ffffff;
+	padding: .5em 0 .5em .8em;
+}
+
+.region-select-container select {
+	width: 184px;
+}
+
+.center-column {
+	margin: 0 6px;
+}
+
+#left-column-wide {
+	margin: 0 7px 0 0;
+	width: 663px;
+}
+
+#right-column-wide {
+	margin: 0 0 0 7px;
+	width: 663px;
+}
+
+.search-results-wide {
+	width: 800px;
+}
+
+.search-module-bottom {
+	display: none;
+}
+
+.search-module { margin-bottom: 10px;
+				 margin-left: -4px;}
+
+#searchResultRCol {
+    padding-left: 0;
+}
+
+#eternal-tribute .eternal-header {
+	width: 980px;
+}
+
+#mb-container {
+	width: 980px;
+}
+
+#mb-container div#clip-for-overlay {
+	margin: 0;
+}
+
+.login-container {
+	padding: 4px;
+	margin-right: 10px;
+}
+
+#generic-header .login-container .login-info {
+	color: #666666;
+	font-family: "arial", sans-serif;
+	text-align: right;
+}
+
+#generic-header .login-info a, #generic-header .login-info a:link, #generic-header .login-info a:active {
+	color: #026EB7;
+}
+
+#generic-header .login-info a:hover {
+	color: #026EB7;
+}
+
+#generic-header .login-info a.log-out {
+	background: #026EB7;
+	color: #fff;
+	width: 44px;
+	height: 12px;
+	text-align: center;
+	padding: 4px;
+}
+
+.dashboard .right-column {
+	width: 642px;
+}
+
+#physical-address {
+	margin: 0;
+	font-size: 11px;
+	color: #666666;
+}
+
+p.copyright {
+	margin-bottom: 0;
+	font-size: 11px;
+	color: #666666;
+}
+
+img.cobrand-logo {
+	width: 124px;
+	height: 52px;
+}
+
+/*----------------------------------------------------------*/
+/*-----------------Navigation Styles------------------------*/
+/*----------------------------------------------------------*/
+
+#links {
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+div#navigation {
+	margin-top: 0;
+}
+
+div#navigation div#links ul li {
+	border: 0;
+}
+
+div#navigation div#links ul li a {
+	font-weight: bold;
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 13px;
+	padding: 0;
+}
+
+div#navigation div#links ul li a:hover {
+	background: transparent;
+}
+
+.right-column {
+	width: 630px;
+}
+
+div.right-col-module {
+	margin: 0 .1em 2em;
+}
+
+ul.tabs li a {
+	padding: 0.75em 1em;
+}
+
+ul.main-actions {
+	padding: 0 .6em 0;
+}
+
+ul.main-actions li:first-child {
+	margin: 0 .75em 1em 0;
+}
+
+.obit-text-container {
+	padding: 0 12px;
+}
+
+.recent-images {
+	padding: 0 0 0 12px;
+	margin-bottom: 2em;
+}
+#cobrand-homepage-leftcolumn {
+    width: 295px;
+}
+.recent-images ul li {
+	padding: 0.25em;	
+}
+/* Styles to be shared amongst new cobrands */
+#trib2-subnav .level1 a, #trib2-subnav .level1 .non-link{
+	color:white;
+	font-family: 'Droid Sans', sans-serif;
+	font-size:12px;
+	padding:10px 5px;
+}
+#trib2-subnav .level1 .non-link .dropdownArrow{
+	background: url("/trib2_images/global_sprites.png") no-repeat scroll -154px -80px;
+}
+#trib2-subnav .loginStatus .loginStatus_arrow{
+	background: url("/trib2_images/global_sprites.png") no-repeat scroll -1488px -71px;
+	width: 14px;
+	height: 35px;
+	display: block;
+	float: right;
+}
+
+#featured-obituary {
+	float: left;
+	width: 300px;
+}
+
+#featured-obituary img {
+	z-index: 1;
+	position: relative;
+	width: 300px;
+	height: 225px;
+}
+
+#featured-obituary .content {
+	background-color: #E6E6E6;
+	border: solid 1px #B5B5B6;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	padding: 10px;
+	float: left;
+	width: 274px;
+	z-index: 2;
+	position: relative;
+}
+
+#featured-obituary .content h3, #featured-obituary .content p {
+	padding: 0;
+	margin: 0;
+}
+
+#featured-obituary .content h3 {
+	font-weight: bold;
+	color: #142B6F;
+	margin-bottom: 5px;
+}
+
+#featured-obituary .content a:hover {
+	color: #142B6F;
+}
+
+#featured-obituary .person-container {
+	clear: both;
+	margin: 0;
+	padding: 5px;
+	border-bottom: dotted 1px #cccccc;
+	min-height: 75px;
+}
+
+#featured-obituary .content .person-container img {
+	float: left;
+	width: 75px;
+	height: 75px;
+}
+
+#featured-obituary .person-container .photo-container {
+	float: left;
+	width: 75px;
+}
+
+#formParameters .paramater {
+	float: left;
+	margin: 0 0 7px 10px;
+}

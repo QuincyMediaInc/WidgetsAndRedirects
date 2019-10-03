@@ -1,0 +1,694 @@
+/* HORIZ SCROLL IE7 FIX -- add specific ids and classes here */
+
+#pet-promo h3, #pet-books h2, #psbanner label, div#dvd-song-selection a.white-form-button, div.white-form-button, .search-module fieldset .optional, .search-results .search-result-key, .search-results .search-result-key ul, #share-a-memory blockquote, #message-from-the-family p, input.pretype, 
+#today-in-the-news li a span, #today-in-the-news li a:hover span, #notable-flash-feature-right ul, #notable-memory-journal blockquote, #notable-feature-right ul, div#national-news-container div.overlay-container, .wizard-form-content h5.exp-date, .wizard-form-content h3.instruction, .wizard-form-content .submitted-by, .military-promo-right h3, span.burst, #landing-page blockquote, .czc-footer .video-block, #photo-module .textareacounter, #recent-tributes ul span, #left-col-giftPage #giftpage-content blockquote, ul#candle-listing li div.gift-details-popup span.dod, #alerts .reply-form-popup h4, .keyword-help span, #TributeUpgrades a.comm-free, #TributeUpgrades a.memorial, #TributeUpgrades a.commemorative, .grief-header h4, .recovery-main h4, .qa p, .recovery-main #book-glider div.scroller div.section span.byline, .recovery-main .book blockquote p, #grief-intro span.signature, .recovery-main ul.articles p, .grief-promo .content-area .img-container span, .create-heading h4.quote, #local-news ul#local-results-list li a span.dates, #wake h5, #booth h5, #upgrade .inner-blue p.footnote, .burst-2, #upgrade dt, .disclaimer, .pet-search-page h1,   { 
+	overflow:auto;
+}
+
+/*Global Site Fixes*/
+.ieDisabledField {
+	background-color:#ece9d8;
+}
+
+#trib2-subnav .level1 ul{
+	z-index: 113000;
+}
+.tickerFadeIn img{
+	z-index: 0;
+}
+.trib2-buttonblue{
+	padding-left:0px;
+	padding-right:0px;
+}
+#trib2-subnav .non-link:hover a + ul{ /* Display the on hover */
+		left:0;
+	}
+#header h1 {
+	width: 600px;
+}
+
+#landing-page .left-side {
+	margin-left: -56px;
+}
+
+.IE7mmargintop {
+	margin-top: 2em;
+}
+
+.gray-banner {
+	min-height: 40px;
+}
+
+.inner-blue {
+	background-color: #e9f0fc;
+}
+
+div#photos .notable-info ul li {
+	display: block;
+	float: left;
+}
+
+ul#sorter {
+	width: 100%;
+	height: 24px;
+}
+
+ul#sorter li { 
+	display: block;
+	width: 18px;
+	float: left;
+}
+
+ul#sorter li.first {
+	margin-left: 6.5em;
+} 
+
+ul#sorter li a {
+	display: block;
+}
+
+/* National News Styles */
+
+.orange-banner {
+	height: 56px;
+}
+
+/* Obit Center Styles */
+
+#obitCenter h3 {
+	margin: .11em 0 .2em .3em;
+	margin: 0;
+}
+
+label {
+	display: normal;
+}
+
+.obitCenter-form {
+	margin: 0 6px 0 6px;
+}
+
+#obitCenter input#firstName, #obitCenter input#lastName {
+	width: 150px;
+	margin-right: 2px;
+}
+
+#obitCenter input#city {
+	width: 94px;
+}
+
+#obitCenter select {
+	width: 140px;
+	margin-left: 6px;
+}
+
+.obitCenter-form select#state {
+	margin-left: 0;
+}
+
+.obitCenter-form select#dateRange1, .obitCenter-form select#distance {
+	width: 156px;
+	margin-left: 0px;
+}
+
+.obitCenter-form select#dateRange2 {
+	margin-left: 0;
+}
+/* Tribute area Style Tweaks*/
+
+#tributePromo h2 {
+	font-size: 12pt;
+}
+
+#tributePromo #tributePromo-top {
+	height: 204px;
+}
+
+#tributePromo p {
+	margin: 6px 10px 4px 10px;
+}
+
+#tributePromo #tribute_examples {
+	top: 142px;
+	margin-bottom: 0;
+	height: 119px;
+}
+
+#cobrand-notables ul li a {
+	height: 18px;
+}
+
+/* Promo Area Style Tweaks*/
+
+
+.pagination-wide {
+	margin-bottom: 20px;
+}
+
+#notables-content-bg {
+	margin-bottom: 20px;
+}
+ul.year-in-review-list {
+	margin-top: 20px;
+}
+
+#right-column-wide.homepage {
+	margin-top: -120px;
+}
+
+#tributePromo #tribute_examples { min-height: 162px; }
+
+
+#tributePromo #tribute_examples ol {
+	position: relative;
+	bottom: -1.25em;
+}
+
+/* Search Module Tweaks */
+
+
+.search-module fieldset .fieldwrapper {
+	float: left;
+	margin: 10px 5px 10px 0;
+}
+
+.city-cols {
+	min-height: 300px;
+}
+
+button { 
+  width:auto; 
+  overflow:visible; 
+}
+button span { 
+  margin-top: -3px; 
+}
+
+ul.notables-content-bg li a h3 div, ul.notables-content-bg li a.active h3 div {
+	font-size: 36pt;
+	margin: -13px 10px 0 0;
+	width: 30px;
+	line-height: 30pt;
+}
+
+ul#alphabetlist li a {
+	color: #fff;
+	padding: .2em;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 16px;
+	height: 16px;
+}
+
+.alphabetlist {
+	height: 41px;
+}
+
+li.review_data a {	
+	margin: 8px 0 4px 0;
+}
+
+
+input.secondary {
+	padding: 0;
+	color: red;
+}
+
+
+/*-------------Tribute Wizard-----------------------*/
+#option-overlay {
+	height: 86.5%;
+	top: 162px;
+}
+
+.breadcrumb-nav a.white-form-button {
+	margin: 0;
+	color: #0C3F81;
+	margin-top: -20px;
+}
+
+.wizard-form-content select {
+	margin-bottom: 6px;
+}
+
+#share-a-memory {
+	padding: 0 0 0 0;
+}
+
+#share-a-memory #memory-journal-view-all-share {
+	padding: 0px 0 35px;
+	padding: 0;
+}
+
+.memory-book-form-description {
+	padding: 10px 10px 10px 20px;
+}
+
+#memory-book-form ul li {
+	margin: 10px 0;
+	padding: 0;
+	border: solid 1px transparent;
+}
+
+.wizard-form-content a.flash-button {
+	padding: 0 0 5px;
+}
+
+
+/* National News Tweaks */
+#memory-journal-view-all-share {
+	margin-bottom: 8px;
+}
+.pagination-links a, .pagination-links a:visited {
+	position: relative;
+}
+.pagination-links a.pagination-next {
+	padding-right: 21px;
+	padding-left: 21px;
+}
+#this-week-in-history {
+	min-height: 200px;
+}
+#this-week-in-history-left li a:hover, #this-week-in-history-left li.selected-twih a {
+	position: relative;
+}
+
+#national-obituaries h1 a.headerlink {
+	margin-top: -31px;
+	margin-right: 10px;
+}
+
+#today-in-the-news .info-container h3 {
+	margin: 0;
+}
+
+a.orange-medium-button span {
+	margin: 0;
+}
+
+/* Bronze Obituary tweaks */
+#edit-this-tribute {
+	min-height: 45px;
+}
+#message-from-the-family {
+	min-height: 200px;
+}
+
+#obit-text #message-from-the-family {
+	min-height: auto;
+	margin: 0 0 10px;
+}
+#share-a-memory.share-a-memory-bronze {
+	/*min-height: 320px;*/
+	min-height: 200px;
+	padding-bottom: 10px;
+}
+
+/* Memory Book tweaks */
+#memory-book-form {
+	position: relative;
+	top: 10px;
+	width: 625px;
+}
+
+#memory-book-form-submit {
+	bottom: -10px;
+}
+
+.bronze-content-memory-book {
+	float: left;
+	width: 667px;
+}
+
+#customizeArea {
+	height: 80px;
+}
+
+#obitCenter #customizeArea select {
+	margin-left: 0px;
+}
+
+.gen {
+	float: left;
+	margin-top: 10px;
+}
+
+.how-to-container .step em {
+	width: 48px;
+	padding: 0 0 0 8px;
+}
+
+.home-promo h2 {
+	font-weight: normal;
+}
+
+#nationalNewsContent ul li a img {
+	margin: -1.4em -.3em 0 0;	
+}
+
+
+#national-obituaries span.view-all-memories {
+	margin-top: -20px;
+}
+
+.upgrade-container table#TributeUpgrades {
+	width: 100%;
+}
+
+
+.ssl p {
+	margin-bottom: 1em;
+}
+
+.wizard-form-content ul.music-selection li .checkbox {
+	margin-bottom: 6px;
+}
+
+.music-player .music-button {
+	margin: -1.5em 0 -2em;
+}
+
+.register-container-right-col {
+	float: right;
+	margin-right: 16px;
+}
+
+
+#free-tribute a, #memorial-tribute-yearly a, #memorial-tribute-monthly a, #commemorative-yearly a, #commemorative-monthly a {
+	margin-left: 0%;
+}
+
+th#upgrade-promo-area p {
+	margin-top: .3em;
+}
+
+.fh-agent {
+	margin-top: 0;
+	margin-right: 0px;
+}
+
+
+.managers-container-separater a.white-form-button {
+	top: -3px;
+}
+
+ul.managers-list li a.gray-form-button {
+	float: right;
+	position: relative;
+	top: 0;
+	margin-bottom: 0;
+
+}
+
+.ie-7-right-col-fix {
+	margin-right: 25px;
+}
+
+.h4-ie-floatRight-bug {
+	position: absolute;
+	top: 295px;
+	left: 840px;
+}
+
+#location-details.free-obit button.large-button {
+	padding: 2px 20px 0 0;
+	font-size: 12pt;
+}
+
+#location-details-container {
+	min-height: 180px;
+	margin-bottom: 2em;
+}
+
+.wizard-form-content div.fieldset-container #location-details-container {
+	min-height: 250px;
+}
+
+.wizard-form-content textarea#post_service_notes {
+	width: 283px;
+	height: 53px;
+}
+
+.hosted-obits-top-banner .search-module fieldset .fieldwrapper button {
+	padding-top: 3px;
+}
+
+ul.notable-grid div {
+	margin-left: -242px;
+}
+
+ul.notable-grid div.left {
+	margin-left: -78px;
+}
+
+ul.notable-grid div.bottom {
+	margin-top: -219px;
+}
+
+.dashboard .fh-resources .resource-container ul li a, .dashboard .fh-resources .resource-container ul li a:link {
+	width: 574px;
+}
+
+.dashboard .obituaries-table td span {
+	top: -15px;
+	margin-bottom: -15px;
+}
+
+ul#dontation-extra-amount li {
+	margin: 0 5px;
+}
+
+a.candle-learn, a.candle-learn:visited, a.candle-learn:link {
+	margin: 59px 0 0 30px;
+}
+
+#mb-container.gift div.search-bar input {
+	padding: 2px;
+}
+
+div.cbstv_main_menu_div {
+	text-align: left;
+}
+
+div.cbstv_main_menu_div table {
+	padding: 0;
+	
+}
+
+#imcontainer10, #imcontainer11, #imcontainer12, #imcontainer13, #imcontainer14, #imcontainer15, #imcontainer16 {
+	padding: 0;
+}
+
+#imcontainer20, #imcontainer21, #imcontainer22, #imcontainer23, #imcontainer24, #imcontainer25, #imcontainer26 {
+	padding: 0;
+	margin: 0;
+	margin-top: -4px;
+}
+
+
+.wizard-form-content button.submit {
+	padding: 3px 0 2px 6px;	
+}
+
+.wizard-form-content select {
+	margin-top: 2px;
+}
+
+.wizard-form-content span.specific-year input {
+	margin-top: -2px;
+}
+
+.wizard-form-content ul.tabbed-navigation {
+	position: relative;
+	top: -20px;
+	margin-bottom: 0;
+}
+
+/*----------------------------------- Search Page Updates -----------------------------------*/
+
+#save_search_alert p {
+	margin-bottom: 10px;
+}
+
+/*----------------------------------- SSDI OBIT -----------------------------------*/
+
+#ssdi #death-record-links {
+	margin-bottom: 0;
+}
+
+/*-----------------------------------Free Obit / Hosted Free Obit / Bronze Obit-----------------------------------*/
+
+
+#free-obit-bg #death-record-links li a, #bronze-content-bg #death-record-links li a {
+	width: 130px;
+}
+
+/*----------------------------------- Consumer Eternal Upgrade Options -----------------------------------*/
+
+.upgrade-container-eternal p.topper {
+	position: relative;
+	right: -15px;
+}
+
+a#fh-eternal strong {
+	margin-top: -80px;
+}
+
+/*---------------------- Confirmation Page Styles -------------------*/
+
+#mb-container #memory-book-form .promo-container .submit-area {
+	width: 97%;
+}
+
+.sample-tribute a {
+	padding: 8px 0 0 12px;
+	width: 206px;
+	height: 25px;
+}
+
+#recent-tributes .list-container {
+	background-image: none;
+	background-color: #ffffff;
+}
+
+/*---------------------- Aurora-tribute-hacks -------------------*/
+.aurora-memory {
+	padding-top: 1.5em;
+	position: relative;
+}
+
+.obituary-content {
+	margin-bottom: 1em;
+}
+
+#eternal-aurora-memory.aurora-memory h5 {
+	display: block;
+	margin: -1em 0 0 0;
+	background-color: #e0e0e0;
+	color: #535353;
+	padding: .4em 1em;
+	font-size: 1.6em;
+}
+/*---------------------- New Alerts Page -------------------*/
+
+#alerts a.cancel {
+	margin: 1.65em .5em 0 0;
+}
+
+#alerts .body ul li:hover {
+	background: none;
+}
+
+#alerts #funeral-home-replace button.large-button span {
+	display: block;
+	padding: 5px 0 0 0;
+}
+
+.register-container .reply-form .fnet .fnet-submit input {
+	padding: 1px 2px 9px 8px;
+}
+
+.continue-block {
+	margin: 2em 0;
+}
+
+#alerts .alert-fh-search-results {
+	overflow: visible;
+	height: auto;
+}
+
+.billing-select {
+	width: 450px;
+}
+
+a.music-save {
+	margin-top: 24px;
+}
+
+#cobrand-notables img.smallArrow {
+	margin-top: -18px;
+}
+
+/* -- MILITARY WIZARD PROMO --*/
+.military-promo-right a.sample-button {
+	z-index: 1;
+}
+
+.military-promo-right ul {
+	margin-top: 3em;
+}
+
+/* -- Akin Mears --*/
+img.top-cap {
+	float: none;
+	margin-bottom: -3px;
+}
+
+/* -- Veterans Day Candelabra -- */
+
+#landing-page.veterans-day .bottom ul {
+	padding-top: 4px;
+}
+
+#landing-page.veterans-day .bottom a.candle-button {
+	margin-top: -2em;
+}
+
+.czc-footer .video-block {
+	width: 258px;
+}
+
+#candle-selection-head.veterans_day h2 {
+	padding-top: 20px;
+}
+
+h5.charity-partners, div.charity-footer {
+	position: static;
+}
+
+/* -- Upgrade Block Stuff -- */
+
+#upgrade .inner-blue { border: double 4px #C2DAF2; }
+ul.upgrade-actions { margin: 1em 6.5em;}
+ul.upgrade-actions li { display: inline; }
+#upgrade .upgrade-block a.example-img { width: 299px; height: 230px; }
+#upgrade .upgrade-block h4 { line-height: 1.2em; margin-top: -.3em; }
+#upgrade .upgrade-block h4 span { margin-bottom: -1em; }
+
+ul#charity-partners li { display: inline; }
+ul#charity-partners li a { margin: 12px 2%; }
+
+/* -- Memorial Day Candle Promo --*/
+ul#candle-listing li { display: inline; }
+.memorial-gifts ul.gift-selection-area li, .memorial-fields ul#dontation-extra-amount li { display: inline; }
+.memorial-fields ul#dontation-extra-amount li div { width: 50px; text-align: center; }
+.memorial-fields table td input#dod_dateRange2 { width: 49px; }
+.memorial-fields table.search td input.submit  { padding: 0; }
+
+/* -- Veterans Day Candle Promo --*/
+#landing-page.veterans-day div.bottom { padding-top: 16px; }
+
+/* -- Pet Promo --*/
+#upgrade .inner-blue .biskitt-promo p { height: 288px; }
+#upgrade .inner-blue .biskitt-promo p.disclaimer { height: auto; }
+a.pet-sample-link span { top: 188px;}
+
+/* Custom Locations */
+.location-container a.delete { margin: 35px 0 0;}
+
+/* Grief Center */
+.grief-header ul.nav li { display: inline; width: 160px; }
+.recovery-main th { width: 110px;}
+.recovery-main input { width: 88%;}
+.recovery-main input.fix-ie7 {width: 200px;}
+.recovery-main input.long { width: 95%;}
+.recovery-main textarea { width: 95%;}
+
+#trib2-adminPanel li { height: 26px;}
+.beat-text {float:left; width:295px; }
+
+#main-content #local-funeral-homes div.track{
+	position:inherit !important;
+	top:0px;
+}

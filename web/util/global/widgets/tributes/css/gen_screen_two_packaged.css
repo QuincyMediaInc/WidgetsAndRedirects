@@ -1,0 +1,48 @@
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline}
+ body {font: 75%/1.4em "Lucida Grande", Georgia, "Times New Roman", serif; margin: 0}
+   a, a:link, a:visited {text-decoration:none; color: #f48500; color: #0839B5; cursor: pointer}
+a:focus, a:active {outline:none; text-decoration: none; cursor: pointer}
+a:hover {outline:none; text-decoration: underline; cursor: pointer}
+ h1 {font-size:1.8em; margin:.6em 0;}
+h2 {font-size:1.6em; margin:.6em 0;}
+h3 {font-size:1.4em; margin:.6em 0;}
+h4 {font-size:1.2em; margin: .4em 0;}
+h5 {font-size:1em; margin:.4em 0; font-weight:bold;}
+ dl, ol, ul {margin:1em 0;}
+ol, ul {padding:0 0 0 2em;}
+li, dd {margin:.25em 0;}
+dt {font-weight:bold;}
+ th {font-weight:bold;}
+td, th {padding:.3em .5em; text-align:left;}
+ img {border:0;}
+p {margin:1em 0;}
+hr {display:none;}
+label {display:block;}
+small {font-size:.8em;}
+strong {font-weight:bold;}
+blockquote {padding-left:2em;}
+em, ins, del {font-style:italic;}
+ abbr, acronym, dfn {cursor:help; border-bottom:1px dotted #ddd;}
+code, kbd, pre {font-family:Courier, "Courier New", Tahoma, sans-serif;}
+   .green-header, .blue-header {background: #48a655 url("/images/global/headers/green-bg.gif") repeat-x 0 bottom; text-shadow: 2px 2px 2px #14531f; margin: 0; padding: .25em .5em; border-bottom: solid 2px #ffffff; color: #ffffff}
+.blue-header {background: #5494d1 url("/images/global/headers/blue-bg.gif") repeat-x 0 bottom; text-shadow: 2px 2px 2px #0a2a61}
+.green-header em , .blue-header em {color: #FFD076}
+.green-header a, .blue-header a {color: #ffffff}
+.sliding-doors-header {height: 41px; margin: 0 0 5px}
+.sliding-doors-header-extended {height: auto}
+.sliding-doors-header h1 {margin: 0; padding: 8px 0 10px 10px; color: #fff}
+.sliding-doors-header h1.page_title {display: block}
+.sliding-doors-header h1 a {text-decoration: none; color: #fff}
+.sliding-doors-header .blue-left {background: url("/images/global/round-blue-banner-left.png") left top; float: left; width: 5px; height: 41px}
+.sliding-doors-header-extended .blue-left {height: auto}
+.sliding-doors-header .blue-right {background: url("/images/global/round-blue-banner-right.png") right top; height: auto}
+.sliding-doors-header .fh-left {background: url("/images/global/round-fh-banner-left.png") left top; float: left; width: 5px; height: 41px}
+.sliding-doors-header .fh-right {background: url("/images/global/round-fh-banner-right.png") right top; height: 41px}
+.sliding-doors-header .fh-right a.log-out, .sliding-doors-header .fh-right a.log-out:link, .sliding-doors-header .fh-right a.log-out:active, .sliding-doors-header .fh-right a.log-out:visited {display: block; color: #054068; background: #CCEBF0; float: right; width: 50px; padding: 5px; border: solid 1px #ffffff; margin: .65em 1.55em; font-weight: bold; text-align: center}
+.sliding-doors-header .fh-right a.log-out:hover {background: #249ECB; color: #ffffff; text-decoration: none}
+.gray-banner { background: url("/images/global/gray-banner.jpg") right bottom}
+.orange-banner { background: url("/images/global/orange-banner.jpg") right bottom}
+.orange-banner h1 {color: #ffffff; padding: .35em; margin: 0}
+.blue-banner {background: url("/images/global/blue-banner.jpg") right bottom}
+  a.basic-white-button {-moz-border-radius:4px 4px 4px 4px; -moz-box-shadow:0 0 8px #BDBCBC; background-color:#FFFFFF; border:1px solid #ACAEB8; bottom:2em; display:block; font-size:13px; padding:0.2em 0.5em; height: 16px}
+a.basic-white-button:hover {background-color: #E5EFFf; text-decoration: none; border-color: #85878f}

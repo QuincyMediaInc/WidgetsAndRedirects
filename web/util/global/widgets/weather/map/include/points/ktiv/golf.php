@@ -1,0 +1,11 @@
+"Old Dane Golf Club": {'address': '466 Hwy 35', 'city': 'Dakota City', 'state': 'NE', 'zip': '68731', 'phone': '402-987-1100', 'lat': '42.415389', 'lng': '-96.436155', 'url': ''},
+"Landsmeer Golf Club": {'address': '902 7th St. NE', 'city': 'Orange City', 'state': 'IA', 'zip': '51041', 'phone': '712-737-3429', 'lat': '43.011488', 'lng': '-96.043757', 'url': 'http://landsmeergolfclub.com/'},
+"Paullina Golf Club": {'address': '5630 460th St.', 'city': 'Paullina', 'state': 'IA', 'zip': '51046', 'phone': '712-448-3477', 'lat': '42.982938', 'lng': '-95.678009', 'url': 'http://www.paullinaiowa.com/paullinagolf/'},
+"Hartington Golf & Country Club": {'address': '101 E. Felber St.', 'city': 'Hartington', 'state': 'NE', 'zip': '68739', 'phone': '402-254-7312', 'lat': '42.624612', 'lng': '-97.26462', 'url': 'http://www.hartingtongolf.com/'},
+"Brooks Golf Club": {'address': '1201 Brooks Park Dr.', 'city': 'Okoboji', 'state': 'IA', 'zip': '51355', 'phone': '712-332-5011', 'lat': '43.389324', 'lng': '-95.128272', 'url': 'https://www.brooksgolfclub.com/'},
+"Rock Valley": {'address': '701 Golf Course Road', 'city': 'Rock Valley', 'state': 'IA', 'zip': '51247', 'phone': '712-476-2427', 'lat': '43.193861', 'lng': '-96.304277', 'url': 'http://www.rockvalleygolfclub.com/'},
+"Akron Golf Club": {'address': '941 Country Club Dr.', 'city': 'Akron', 'state': 'IA', 'zip': '51001', 'phone': '712-568-3146', 'lat': '42.818825', 'lng': '-96.557047', 'url': ''},
+"Twin Creeks Golf Club": {'address': '912 N. Hwy 9', 'city': 'Pender', 'state': 'NE', 'zip': '68047', 'phone': '402-385-2376', 'lat': '42.085723', 'lng': '-96.709148', 'url': 'http://www.golfingnebraska.com/course_description/pender_twincreeks.shtml'},
+"The Ridge": {'address': '2595 Ridge Road', 'city': 'Sioux Center', 'state': 'IA', 'zip': '51250', 'phone': '712-722-4846', 'lat': '43.050325', 'lng': '-96.167146', 'url': 'http://www.siouxcenterridge.com/'},
+"Hawarden Golf Club": {'address': '4502 Buchanan Ave.', 'city': 'Hawarden', 'state': 'IA', 'zip': '51023', 'phone': '712-551-4444', 'lat': '43.010196', 'lng': '-96.469723', 'url': ''},
+"Willow Creek Golf Course": {'address': '935 Park Lane', 'city': 'Le Mars', 'state': 'IA', 'zip': '51031', 'phone': '712-546-6849', 'lat': '42.800579', 'lng': '-96.151704', 'url': 'http://www.lemarsiowa.com/facilities/facility/details/Willow-Creek-Golf-Course-3'}

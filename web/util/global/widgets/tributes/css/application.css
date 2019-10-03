@@ -1,0 +1,109 @@
+body.cobrand-homepage #container {
+    background-color: #d8e4f0;
+    height: 500px;
+    width: 300px;
+	position: relative;
+	float: left;
+}
+
+body.cobrand-homepage #container.waow {
+    background-color: #eaedf2;
+}
+
+#main-content{width: 300px;}
+	
+.ie #cobrand-homepage-leftcolumn {
+	width: 263px;
+}
+
+
+#header{
+	padding: 0 0 3px 18px; 
+	width: 282px; 
+	height: 20px; 
+	background: #ffffff url('/util/global/widgets/tributes/img/header.png') no-repeat;
+}
+
+.ie #header{width: 300px;}
+
+#click{width: 300px; height: 15px;}
+
+#click a{
+	color: #000;
+	display: block;
+	margin: 14px 0 0 10px;
+}
+
+div.cobrand-block {
+	background-color: transparent;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+#local-news div.scrollable-container {
+    float: left;
+    height: 320px;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+#local-news div.track {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: -moz-use-text-color #B8C2AB;
+    border-left: 1px solid #B8C2AB;
+    border-right: 1px solid #B8C2AB;
+    border-style: none solid;
+    border-width: 0 1px;
+    float: right;
+    height: 309px;
+    left: 0;
+    margin-bottom: -320px;
+    position: relative;
+    top: -309px;
+    width: 15px;
+    z-index: 299;
+}
+
+.ie #local-news div.track {
+
+    left: 40px;
+}
+
+#local-results-list{list-style-type: none;}
+
+.new-homepage ul#local-results-list div.text-content {
+    background-color: #FFFFFF;
+    width: 255px;
+	border-style: dotted;
+    border-width: 0 0 1px;
+    padding: 0;
+	
+}
+
+body.cobrand-homepage #local-news ul#local-results-list li a {
+    width: 240px;
+	color: #0A3E87;
+	font-size: 1.2em;
+    font-style: italic;
+}
+
+body.cobrand-homepage #container.waow #local-news ul#local-results-list li a {
+	color: #31408F;
+}
+
+body.cobrand-homepage #container.wvva #local-news ul#local-results-list li a {
+	color: #1B3A6D;
+}
+
+#handle-one{width: 11px; height: 35px; background-image: url('/util/global/widgets/tributes/img/handle.png');}
+
+.dates, .location{padding: 0 0 0 10px;}
+
+#powered{position: absolute; left: 104px; bottom: 25px;}
+

@@ -1,0 +1,91 @@
+/*------Global------*/
+
+
+button.large-button {
+	background: url("/images/global/buttons/large-button-right.png") no-repeat right 0px;
+}
+
+button.large-button:hover {
+	background: url("/images/global/buttons/large-button-right-hover.png") no-repeat right 0px;  
+}
+
+.inner-blue {
+	background-color: #e9f0fc;
+}
+
+/*------Home Page------*/
+
+#nationalNewsContent ul li a img {
+	margin-top: -.1em;
+}
+
+/*------Candelabra------*/
+
+a.candle-learn:link {
+	margin-top: 70px;
+}
+
+/*------National News------*/
+/*
+#national-obituaries span.view-all-memories a {
+	margin-top: 0;
+}*/
+
+/*------OBITS / TRIBUTES------*/
+
+#bronze-content-bg .name-visitation-container h1 {
+	margin: 0 0 -.5em;
+}
+
+#bronze-content-bg span.behind {
+	left: 0;
+	top: -0.6em;
+	float: left;
+	
+}
+
+#bronze-content-bg #location-details {
+	margin: 0;
+}
+
+#upgrade .upgrade-block h3 div.price {
+	height: 29px;
+	padding: 1px 0;
+}
+
+/*------ Wizard ------*/
+
+.wizard-form-content div.ssl {
+	top: 122px;
+}
+
+.wizard-form-content button.submit {
+	padding: 3px 0 2px 6px;	
+}
+
+.wizard-form-content a.flash-button {
+	padding: 0 0 5px;
+}
+
+/*------ Dashboard ------*/
+.dashboard .obituaries-table td span {
+	top: 0;
+}
+
+/*------ Upgrade page 2010 ------*/
+
+#upgrade .inner-blue {
+	border: #c2daf2 4px double;
+}
+/*------ Memorial Day Candelabra ------*/
+.memorial-fields table td input#dod_dateRange2 { width: 54px; }
+.memorial-fields table.search td input.submit  { padding: 0;}
+
+/*------ Veterans Day Candelabra ------*/
+#candle-selection-head.veterans_day h2 {
+	padding-top: 16px;
+}
+
+#wrong-location div.autocomplete {
+	margin-left:-72px;
+}

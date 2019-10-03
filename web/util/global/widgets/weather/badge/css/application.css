@@ -1,0 +1,39 @@
+#container{position:relative; width: 290px; height: 200px; background: url('../img/background.png') no-repeat top left; border: 1px solid; font-family: Arial; font-weight: bold;}
+
+#container #title{position: absolute; top: 10px; left: 0px; color: #000; font-size: 1.4em; width: 300px; text-align: center;}
+
+#container #rotate{position: absolute; width: 200px; top: 53px; left: 10px}
+
+#container #rotate .blue{color: blue; font-size: 1.1em; width: 200px; text-align: center;}
+
+#container #rotate #inner{position:relative;}
+
+#container #rotate .cityState{position: absolute; top: 2px;left: 0px;}
+
+#container #rotate .icon{position: absolute; left: 30px; top: 24px;}
+
+#container #rotate .current{position: absolute; color: #fff; font-size: 3em; top: 25px; left: 105px; }
+
+#container #rotate .high{position: absolute; top: 87px; left: 0px;}
+
+#container #rotate .low{position: absolute;  top: 107px; left: 10px;}
+
+#container #logo{position: absolute; left: 218px; top: 50px;}
+
+#container #site{
+	position: absolute;
+	color: #000000;
+    font-size: 0.8em;
+    left: 215px;
+    text-align: center;
+    top: 117px;
+    width: 75px;
+}
+
+#container #weatherLink{position: absolute; left: 225px; top: 133px;}
+
+#container #radarLink{position: absolute; left: 225px; top: 160px;}
+
+#container #weatherLink a{color: grey; font-size: 1.1em;}
+
+#container #radarLink a{color: grey; font-size: 1.1em;}

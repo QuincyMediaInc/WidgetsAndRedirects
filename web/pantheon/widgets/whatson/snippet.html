@@ -1,0 +1,174 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>			
+<script type="text/javascript">
+  var $ = jQuery;
+</script>
+
+<script type="text/javascript">
+
+console.log(0);
+
+var site= 'kbjr';
+var when= 'tonight';
+
+function titanParse(fullFeed){
+	var numShows = $(fullFeed).find("Show").length;
+	var showHTML = "";
+	var zTooltipText = "";
+	for(var ii=0; ii < numShows; ii++){
+		var $el = $(fullFeed).find("Show:eq("+ ii +")");
+		var sT = $el.attr("adjustedStartTime").split(":");
+		var amPm = "AM"
+		if(sT[0] > 12){
+			sT[0] = sT[0] - 12;
+			amPm = "PM";
+		}else if(sT[0] == 12){
+			amPm = "PM";
+		}else if(sT[0] == 0){
+			sT[0] = 12;
+		}
+		var desc = $el.find("Description").text();
+		if (desc == ""){
+			desc = "No description.";
+		}
+		showHTML += "<div class='titantv_row'><div class='titantv_time'><div class='titantv_time_text'>"+ sT[0]+":"+sT[1]+amPm +"</div></div><div class='titantv_show'><div class='titantv_show_text' rel='"+ desc +"'>"+ $el.find("Title").text() +"</div></div><div style='clear:both;'></div><div class='zText'>" + desc + "</div></div>";
+	}
+	$(".titantv_bg").append(showHTML);
+	titanRollover();
+}
+
+function titanRollover(){
+	var itemNum = $(".titantv_show").length;
+	
+	for(cc=0;cc<itemNum;cc++){
+		$(".titantv_show:eq("+cc+")").hover(
+			function(e){
+				//$(this).css("cursor","pointer");
+				var pos = $(this).offset();
+				$("#titan_tooltip").html($(this).parent().find(".zText").html()).css({
+					"display" : "block",
+					"top" : (pos.top + 20)+"px",
+					"left" : "90px"
+				});				
+			},
+			function(e){
+				//$(this).css("cursor","default");
+				$("#titan_tooltip").css("display","none");
+			}
+		);
+	}
+}
+
+console.log(1);
+
+$(document).ready(function(){
+	
+	console.log(2);
+	
+	$.getJSON('https://www3.whig.com/pantheon/widgets/whatson?site=' + site + '&when=' + when, function(data){
+		
+		console.log(3);
+		console.log(data);
+	
+		
+		$('.guide').attr('href', data.guide);
+		
+		titanParse(data.xml);
+		
+	});
+	
+});
+
+
+</script>
+
+<style type="text/css">
+
+	body{margin: 0;}
+	
+	.titan_xml{display: none;}
+	
+	#titan .titantv_bg {
+		width: 100%; min-height:140px; text-align: center; position: relative;
+	}
+
+	#titan .titantv_date_row {
+		width: 100%; margin: 5px 0px; background: #ffffff; text-align: left;
+	}
+	
+	#titan .titantv_date_text {
+		margin-left: 5px; font: 12px Arial, Verdana, San-serif; color: #000000; line-height: 20px; float: left;
+	}
+
+	#titan .titantv_grid_link {
+		width:	200px; background: #ffffff; text-align: right; line-height: 20px; float: right; padding-right: 6px;
+	}
+	
+	#titan .titantv_grid_link a {
+		font: 12px Arial !important; color:#0a3e87 !important;
+	}
+	
+	#titan .titantv_row {
+		width: 100%;
+	}
+
+	#titan .titantv_time {
+		width: 24%; margin: 1px 1px 1px 0px; background: #f4f5fa; text-align: left; float: left;
+	}
+	
+	#titan .titantv_time_text {
+		margin-left: 5px; font: bold 12px Arial, Verdana, San-serif; color: #000000; line-height: 20px;
+	}
+	
+	#titan .titantv_show {
+		width:	74%; margin: 1px 0px 1px 1px; background: #f4f5fa; text-align: left; float: left;
+	}
+	
+	#titan .titantv_show_text {
+		margin-left: 5px; font: 12px Arial, Verdana, San-serif; color: #31408f; line-height: 20px; cursor: default;
+	}
+	#titan_tooltip {
+		background:#fff; position:absolute; width:200px; border:1px solid #000; padding:2px; display:none; z-index:5; text-align:left; font:bold 11px Arial,Verdana,Sans-serif;
+	}
+	#titan .zText { display:none; }
+	
+</style>
+
+<div id="titan_container">
+
+	<div id="titan" class="titantv_bg" align="left">
+
+	   <!--AD SIZE: header C(ustom)-->
+	  <div id="WNAd547" class="wnad wnad547">
+	  	<img src="https://ad.adlegend.com/xl/PROD/13814/creatives.54750/marlon_thurs_e_300x50.jpg#./xl/PROD/36347181/tmp42433591-300x50.gif" width="300" height="50" border="0" />
+	  </div>
+
+		<div class="titantv_date_row">
+			<div class="titantv_date_text">
+				<script type="text/javascript">
+				var d = new Date();
+				var m = d.getMonth();
+				if(m == 0){ m = "Jan " }
+				if(m == 1){ m = "Feb " }
+				if(m == 2){ m = "Mar " }
+				if(m == 3){ m = "Apr " }
+				if(m == 4){ m = "May " }
+				if(m == 5){ m = "June " }
+				if(m == 6){ m = "July " }
+				if(m == 7){ m = "Aug " }
+				if(m == 8){ m = "Sept " }
+				if(m == 9){ m = "Oct " }
+				if(m == 10){ m = "Nov " }
+				if(m == 11){ m = "Dec " }
+				var n = d.getDate();
+				var y = d.getFullYear();
+				document.write(m + n + ", " + y);
+				</script>
+			</div>
+			<div class="titantv_grid_link">
+				<a class="guide" href="">Full Program Grid</a>
+			</div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div id="titan_tooltip"></div>
+</div>

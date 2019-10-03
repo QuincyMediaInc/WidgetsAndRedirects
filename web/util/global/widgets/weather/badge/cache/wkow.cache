@@ -1,0 +1,57 @@
+<html>
+	<head>		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		
+		<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="./js/application.js?1356113169"></script>
+		
+		<link rel="stylesheet" href="./css/application.css?1356113169" type="text/css" media="screen">
+
+    </head>
+
+	<body>
+
+		<div id="container" slidecount="3">
+			
+			<div id="title">27 Storm Track Weather</div>
+			
+			<div id="rotate">
+			<div id="inner">
+							
+				<div class="item_0" style="display:block">
+					<div class="cityState blue">Madison, WI</div>
+					<div class="icon"><img src="http://WKOW.images.worldnow.com/images/static/gfx/wx_partlycloudy.gif" /></div>
+					<div class="current">19</div>
+					<div class="high blue">High Today 26</div>
+					<div class="low blue">Low Tonight</div>
+				</div>
+
+							
+				<div class="item_1" style="display:none">
+					<div class="cityState blue">Janesville, WI</div>
+					<div class="icon"><img src="http://WKOW.images.worldnow.com/images/static/gfx/wx_partlycloudy.gif" /></div>
+					<div class="current">21</div>
+					<div class="high blue">High Today 25</div>
+					<div class="low blue">Low Tonight</div>
+				</div>
+
+							
+				<div class="item_2" style="display:none">
+					<div class="cityState blue">Baraboo, WI</div>
+					<div class="icon"><img src="http://WKOW.images.worldnow.com/images/static/gfx/wx_partlycloudy.gif" /></div>
+					<div class="current">18</div>
+					<div class="high blue">High Today 26</div>
+					<div class="low blue">Low Tonight</div>
+				</div>
+
+						</div>
+			</div>
+			
+			<div id="logo"><img src="./img/wkow.png" /></div>
+			<div id="site">wkow.com</div>
+			
+			<div id="weatherLink"><a href="http://www.wkow.com/weather" target="_blank">7-Day</a></div>
+			<div id="radarLink"><a href="http://www.wkow.com/category/205219/wkow-interactive-radar" target="_blank">Radar</a></div>
+		</div>
+		
+    </body>
+	

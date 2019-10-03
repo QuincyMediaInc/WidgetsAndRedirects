@@ -1,0 +1,5 @@
+/*Search Page*/
+button.large-button, button.large-button:hover { background-position: right top;}
+/*Premium Obituary Hacks*/
+a.universal-button { font-size: 13px; }
+.obit-text-container p:first-child:first-letter { margin: .25em .1em 0 0; }
