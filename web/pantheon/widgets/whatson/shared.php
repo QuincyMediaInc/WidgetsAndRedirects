@@ -55,7 +55,7 @@ $settings = [
   ],
   'wkow' => [
 
-    'now' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/NowShowing?registrationKey=gIjx6kcsUIqfCoFUGSkld1TybLSkacIy&ShowCount=',
+    'now' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/NowShowing?registrationKey=gIjx6kcsUIqfCoFUGSkld1TybLSkacIy&ShowCount=4',
     'tonight' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/TonightOn?registrationKey=gIjx6kcsUIqfCoFUGSkld1TybLSkacIy',
     'guide' => '/category/135152/whats-on'
   ],
