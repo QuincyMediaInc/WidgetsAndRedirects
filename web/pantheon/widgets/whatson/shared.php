@@ -137,8 +137,8 @@ $settings = [
 
   'kvoa' => [
 
-    'now' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/NowShowing?registrationKey=ZYra6RJuEFbFzQRGxVW9SKw7n9M77SFt&ShowCount=4',
-    'tonight' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/TonightOn?registrationKey=ZYra6RJuEFbFzQRGxVW9SKw7n9M77SFt',
+    'now' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/NowShowing?registrationKey=QFdjKL4bFPabJcLdXnFol%2F10WJwboyn%2B&ShowCount=4',
+    'tonight' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/TonightOn?registrationKey=QFdjKL4bFPabJcLdXnFol%2F10WJwboyn%2B',
     'guide' => '/kvoa-tv-listings/',
     'ad' => '/21720672171/kvoa/kvoa.com/titantv/widget'
 
