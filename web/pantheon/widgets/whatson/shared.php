@@ -129,7 +129,7 @@ $settings = [
   'wsil' => [
     'name' => 'wsiltv',
     'now' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/NowShowing?registrationKey=20Gl2JJ7Inwv%2FF1bALGMd%2F31e123Loj0&ShowCount=4',
-    'tonight' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/TonightOn?registrationKey=20Gl2JJ7Inwv%2FF1bALGMd91j7pvWh1Vu',
+    'tonight' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/TonightOn?registrationKey=20Gl2JJ7Inwv%2FF1bALGMd%2F31e123Loj0',
     'guide' => '/category/304856/whats-on',
     'ad' => '/21720672171/wsil/wsiltv.com/titantv/widget'
 
