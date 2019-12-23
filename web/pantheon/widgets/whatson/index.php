@@ -47,7 +47,7 @@ $filename = dirname(__FILE__)."/c_che/$site-$when.xml";
 
 // if too old
 $get_file = false;
-print "<!-- 1 -->";
+
 if (file_exists($filename)){
 
     if((time() - @filemtime($filename) > 3600) ){
@@ -63,7 +63,6 @@ if (file_exists($filename)){
 }
 
 if ( $get_file ) {
-  print "<!-- 2 -->";
     // file older than 1 hour
 
 
@@ -107,8 +106,6 @@ if ( $get_file ) {
     $text = file_get_contents($filename);
 
 }
-
-print "<!-- 3 $url $text-->";
 
 ?>
 <html>
