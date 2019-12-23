@@ -127,7 +127,7 @@ $settings = [
   ],
 
   'wsil' => [
-
+    'name' => 'wsiltv',
     'now' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/NowShowing?registrationKey=20Gl2JJ7Inwv%2FF1bALGMd%2F31e123Loj0&ShowCount=4',
     'tonight' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/TonightOn?registrationKey=20Gl2JJ7Inwv%2FF1bALGMd91j7pvWh1Vu',
     'guide' => '/category/304856/whats-on',
@@ -137,8 +137,8 @@ $settings = [
 
   'kvoa' => [
 
-    'now' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/NowShowing?registrationKey=QFdjKL4bFPabJcLdXnFol%2F10WJwboyn%2B&ShowCount=4',
-    'tonight' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/TonightOn?registrationKey=QFdjKL4bFPabJcLdXnFol%2F10WJwboyn%2B',
+    'now' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/NowShowing?registrationKey=ZYra6RJuEFbFzQRGxVW9SKw7n9M77SFt&ShowCount=4',
+    'tonight' => 'http://webservices.titantvguide.titantv.com/contentblocks.asmx/TonightOn?registrationKey=ZYra6RJuEFbFzQRGxVW9SKw7n9M77SFt',
     'guide' => '/kvoa-tv-listings/',
     'ad' => '/21720672171/kvoa/kvoa.com/titantv/widget'
 
